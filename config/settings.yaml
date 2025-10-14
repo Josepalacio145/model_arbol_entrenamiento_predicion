@@ -1,0 +1,4 @@
+input_dir: "data/input_excels"
+table_name: "staging_maternas"
+db_connection: "postgresql+psycopg2://postgres:admin123@localhost:5432/dbmaterna_mt"
+output_path: "models/data/output/"

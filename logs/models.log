@@ -1,0 +1,1944 @@
+2025-10-03 20:32:26 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-03 20:32:26 | INFO | models.model_arbol | 🚀 Configuración cargada correctamente.
+2025-10-08 18:50:31 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 18:50:31 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 18:50:31 | CRITICAL | models.select_data_db | Error al cargar la configuración: name 'consultar_tabla' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\select_data_db.py", line 23, in consultar_datos
+    df = consultar_tabla(config["db_connection"], query)
+         ^^^^^^^^^^^^^^^
+NameError: name 'consultar_tabla' is not defined. Did you mean: 'consultar_datos'?
+2025-10-08 18:50:31 | INFO | main |   Error al cargar la configuración: 'NoneType' object has no attribute 'head'
+2025-10-08 18:56:49 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 18:56:49 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 18:56:49 | CRITICAL | models.select_data_db | Error al cargar la configuración: name 'consultar_tabla' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\select_data_db.py", line 23, in consultar_datos
+    df = consultar_tabla(config["db_connection"], query)
+         ^^^^^^^^^^^^^^^
+NameError: name 'consultar_tabla' is not defined. Did you mean: 'consultar_datos'?
+2025-10-08 18:56:49 | INFO | main |   Error al cargar la configuración: 'NoneType' object has no attribute 'head'
+2025-10-08 18:58:47 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 18:58:47 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 18:58:47 | CRITICAL | models.select_data_db | Error al cargar la configuración: name 'consultar_tabla' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\select_data_db.py", line 23, in consultar_datos
+    df = consultar_tabla(config["db_connection"], query)
+         ^^^^^^^^^^^^^^^
+NameError: name 'consultar_tabla' is not defined. Did you mean: 'consultar_datos'?
+2025-10-08 18:58:47 | INFO | main |   Error al cargar la configuración: 'NoneType' object has no attribute 'head'
+2025-10-08 19:08:30 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 19:08:30 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 19:08:31 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-08 19:11:51 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 19:11:51 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 19:11:51 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-08 19:32:10 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 19:32:10 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 19:32:11 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-08 19:32:11 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-08 19:32:11 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-08 19:32:11 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 628 registros.
+2025-10-08 19:32:11 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        25
+           1       0.75      1.00      0.86         6
+
+    accuracy                           0.94        31
+   macro avg       0.88      0.96      0.91        31
+weighted avg       0.95      0.94      0.94        31
+
+2025-10-08 19:32:11 | INFO | models.training_random_forest | ✅ Modelo guardado en: models\modelo_muerte_materna.pkl
+2025-10-08 19:32:13 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-08 19:32:13 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-08 20:03:45 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 20:03:45 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 20:03:45 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-08 20:03:45 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-08 20:03:45 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-08 20:03:45 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 942 registros.
+2025-10-08 20:03:45 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.94      0.91      0.93        34
+           1       0.75      0.82      0.78        11
+
+    accuracy                           0.89        45
+   macro avg       0.84      0.86      0.85        45
+weighted avg       0.89      0.89      0.89        45
+
+2025-10-08 20:03:45 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-08 20:03:46 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-08 20:03:46 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-08 20:21:31 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 20:21:31 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 20:21:31 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-08 20:21:31 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-08 20:21:31 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-08 20:21:31 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 1570 registros.
+2025-10-08 20:21:31 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.98      0.88      0.93        60
+           1       0.71      0.94      0.81        18
+
+    accuracy                           0.90        78
+   macro avg       0.84      0.91      0.87        78
+weighted avg       0.92      0.90      0.90        78
+
+2025-10-08 20:21:31 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-08 20:21:32 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-08 20:21:32 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-08 20:22:46 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 20:22:46 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 20:22:46 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-08 20:22:46 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-08 20:22:46 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-08 20:22:46 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 1570 registros.
+2025-10-08 20:22:47 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.98      0.88      0.93        60
+           1       0.71      0.94      0.81        18
+
+    accuracy                           0.90        78
+   macro avg       0.84      0.91      0.87        78
+weighted avg       0.92      0.90      0.90        78
+
+2025-10-08 20:22:47 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-08 20:22:47 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-08 20:22:47 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-08 21:52:38 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 21:52:38 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 21:52:38 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-08 21:52:38 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-08 21:52:38 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-08 21:52:38 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 1570 registros.
+2025-10-08 21:52:38 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.98      0.88      0.93        60
+           1       0.71      0.94      0.81        18
+
+    accuracy                           0.90        78
+   macro avg       0.84      0.91      0.87        78
+weighted avg       0.92      0.90      0.90        78
+
+2025-10-08 21:52:38 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-08 21:52:39 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-08 21:52:39 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-08 21:54:01 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-08 21:54:01 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-08 21:54:01 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-08 21:54:01 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-08 21:54:01 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-08 21:54:01 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 108 registros.
+2025-10-08 21:54:02 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.89      0.94        19
+           1       0.60      1.00      0.75         3
+
+    accuracy                           0.91        22
+   macro avg       0.80      0.95      0.85        22
+weighted avg       0.95      0.91      0.92        22
+
+2025-10-08 21:54:02 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-08 21:54:02 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-08 21:54:02 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-09 19:33:58 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-09 19:33:58 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-09 19:33:58 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-09 19:33:58 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-09 19:33:58 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-09 19:33:58 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-09 19:33:58 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94        26
+           1       0.92      0.85      0.88        13
+
+    accuracy                           0.92        39
+   macro avg       0.92      0.90      0.91        39
+weighted avg       0.92      0.92      0.92        39
+
+2025-10-09 19:33:58 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-09 19:34:00 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-09 19:34:00 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-09 19:35:33 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-09 19:35:33 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-09 19:35:33 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-09 19:35:33 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-09 19:35:33 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-09 19:35:33 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-09 19:35:34 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94        26
+           1       0.92      0.85      0.88        13
+
+    accuracy                           0.92        39
+   macro avg       0.92      0.90      0.91        39
+weighted avg       0.92      0.92      0.92        39
+
+2025-10-09 19:35:34 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-09 19:35:35 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-09 19:35:35 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-09 19:36:29 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-09 19:36:29 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-09 19:36:29 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-09 19:36:29 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-09 19:36:29 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-09 19:36:29 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-09 19:36:30 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94        26
+           1       0.92      0.85      0.88        13
+
+    accuracy                           0.92        39
+   macro avg       0.92      0.90      0.91        39
+weighted avg       0.92      0.92      0.92        39
+
+2025-10-09 19:36:31 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-09 19:36:32 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-09 19:36:32 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 20:18:59 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 20:18:59 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 20:19:00 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 20:19:00 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 20:19:00 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 20:19:00 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 216 registros.
+2025-10-13 20:19:01 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.94      0.91      0.93        35
+           1       0.70      0.78      0.74         9
+
+    accuracy                           0.89        44
+   macro avg       0.82      0.85      0.83        44
+weighted avg       0.89      0.89      0.89        44
+
+2025-10-13 20:19:01 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 20:19:03 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 20:19:03 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 20:21:02 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 20:21:02 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 20:21:02 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 20:21:02 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 20:21:02 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 20:21:02 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 20:21:03 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94        26
+           1       0.92      0.85      0.88        13
+
+    accuracy                           0.92        39
+   macro avg       0.92      0.90      0.91        39
+weighted avg       0.92      0.92      0.92        39
+
+2025-10-13 20:21:04 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 20:21:04 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 20:21:04 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:06:36 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 21:06:36 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:06:36 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:06:36 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 21:06:36 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 21:06:36 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 21:06:37 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94        26
+           1       0.92      0.85      0.88        13
+
+    accuracy                           0.92        39
+   macro avg       0.92      0.90      0.91        39
+weighted avg       0.92      0.92      0.92        39
+
+2025-10-13 21:06:38 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 21:06:38 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 21:06:38 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:06:55 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 21:06:55 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:06:55 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:06:55 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 21:06:55 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 21:06:55 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 21:06:57 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.93      0.96      0.94        26
+           1       0.92      0.85      0.88        13
+
+    accuracy                           0.92        39
+   macro avg       0.92      0.90      0.91        39
+weighted avg       0.92      0.92      0.92        39
+
+2025-10-13 21:06:57 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 21:06:58 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 21:06:58 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:50:31 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 21:50:31 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:50:31 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:50:32 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 21:50:32 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 21:50:32 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 21:50:32 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: ['causa']
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 32, in entrenar_modelo
+    df = df.dropna(subset=['edad', 'ocupacion', 'etnia', 'departamento', 'semanas','causa', 'categoria_causa'])
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\pandas\core\frame.py", line 6692, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['causa']
+2025-10-13 21:50:32 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:50:32 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:50:32 | CRITICAL | models.modelo | Error en la predicción del modelo: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 14, in modelo_prediccion
+    config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'settings.yaml')
+                  ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+2025-10-13 21:51:43 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 21:51:43 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:51:43 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:51:43 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 21:51:43 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 21:51:43 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 21:51:43 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: ['causa']
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 32, in entrenar_modelo
+    df = df.dropna(subset=['edad', 'ocupacion', 'etnia', 'departamento', 'semanas','causa', 'categoria_causa'])
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\pandas\core\frame.py", line 6692, in dropna
+    raise KeyError(np.array(subset)[check].tolist())
+KeyError: ['causa']
+2025-10-13 21:51:43 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:51:43 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:51:43 | CRITICAL | models.modelo | Error en la predicción del modelo: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 14, in modelo_prediccion
+    config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'settings.yaml')
+                  ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+2025-10-13 21:54:30 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 21:54:30 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:54:30 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:54:30 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 21:54:30 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 21:54:30 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 21:54:31 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 21:54:32 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 21:54:33 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 21:54:33 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:54:33 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:54:33 | CRITICAL | models.modelo | Error en la predicción del modelo: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 14, in modelo_prediccion
+    config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'settings.yaml')
+                  ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+2025-10-13 21:58:40 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 21:58:40 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:58:40 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:58:40 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 21:58:40 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 21:58:40 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 21:58:42 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 21:58:42 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 21:58:43 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 21:58:43 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:58:43 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:58:43 | CRITICAL | models.modelo | Error en la predicción del modelo: name 'os' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 14, in modelo_prediccion
+    config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'settings.yaml')
+                  ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'?
+2025-10-13 21:59:13 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:13 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:13 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:59:13 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 21:59:13 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:13 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 21:59:14 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 21:59:15 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 21:59:16 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 21:59:16 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:59:16 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:59:16 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:16 | CRITICAL | models.modelo | Error en la predicción del modelo: [Errno 2] No such file or directory: 'mmodels/data/outputmodelo_muerte_materna.pkl'
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 22, in modelo_prediccion
+    modelo = joblib.load("mmodels/data/outputmodelo_muerte_materna.pkl")
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\joblib\numpy_pickle.py", line 735, in load
+    with open(filename, "rb") as f:
+         ~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'mmodels/data/outputmodelo_muerte_materna.pkl'
+2025-10-13 21:59:47 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:47 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:47 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:59:47 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 21:59:47 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:47 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 21:59:48 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 21:59:49 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 21:59:50 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 21:59:50 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:59:50 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 21:59:50 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:50 | INFO | models.modelo | 🚀 cargada Modelo.
+2025-10-13 21:59:50 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 21:59:50 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 21:59:50 | INFO | models.modelo | ✅  Carga de dataset a Modelo.
+2025-10-13 21:59:50 | CRITICAL | models.modelo | Error en la predicción del modelo: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 41, in modelo_prediccion
+    encoder = OneHotEncoder(handle_unknown='ignore', sparse=False)
+TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+2025-10-13 22:04:39 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 22:04:39 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:04:39 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:04:39 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 22:04:39 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 22:04:39 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 22:04:40 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 22:04:41 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 22:04:42 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 22:04:42 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:04:42 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:04:42 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 22:04:42 | INFO | models.modelo | 🚀 cargada Modelo.
+2025-10-13 22:04:42 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:04:42 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:04:42 | INFO | models.modelo | ✅  Carga de dataset a Modelo.
+2025-10-13 22:04:42 | CRITICAL | models.modelo | Error en la predicción del modelo: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 41, in modelo_prediccion
+    encoder = OneHotEncoder(handle_unknown='ignore', sparse=False)
+TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+2025-10-13 22:12:44 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 22:12:44 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:12:44 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:12:44 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 22:12:44 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 22:12:44 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 22:12:46 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 22:12:47 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 22:12:48 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 22:12:48 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:12:48 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:12:48 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 22:12:49 | INFO | models.modelo | 🚀 cargada Modelo.
+2025-10-13 22:12:49 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:12:49 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:12:49 | INFO | models.modelo | ✅  Carga de dataset a Modelo.
+2025-10-13 22:12:49 | CRITICAL | models.modelo | Error en la predicción del modelo: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 41, in modelo_prediccion
+    encoder = OneHotEncoder(handle_unknown='ignore', sparse=False)
+TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+2025-10-13 22:14:37 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 22:14:37 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:14:38 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:14:38 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 22:14:38 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 22:14:38 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 22:14:39 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 22:14:40 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 22:14:41 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 22:14:41 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:14:42 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:14:42 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 22:14:42 | INFO | models.modelo | 🚀 cargada Modelo.
+2025-10-13 22:14:42 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:14:42 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:14:42 | INFO | models.modelo | ✅  Carga de dataset a Modelo.
+2025-10-13 22:14:42 | CRITICAL | models.modelo | Error en la predicción del modelo: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 41, in modelo_prediccion
+    encoder = OneHotEncoder(handle_unknown='ignore', sparse=False)
+TypeError: OneHotEncoder.__init__() got an unexpected keyword argument 'sparse'
+2025-10-13 22:36:07 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 22:36:07 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:36:07 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:36:07 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 22:36:07 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 22:36:07 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 22:36:09 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 22:36:10 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 22:36:11 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 22:36:11 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:36:12 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:36:12 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 22:36:12 | INFO | models.modelo | 🚀 cargada Modelo.
+2025-10-13 22:36:12 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:36:12 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:36:12 | INFO | models.modelo | ✅  Carga de dataset a Modelo.
+2025-10-13 22:36:12 | INFO | models.modelo | ✅  Asiganar variables a Modelo.
+2025-10-13 22:36:12 | CRITICAL | models.modelo | Error en la predicción del modelo: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- ocupacion_Contadores y auditores financieros
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- causa_ABORTO ESPONTANEO INCOMPLETO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO MEDICO
+- causa_ABORTO MEDICO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 50, in modelo_prediccion
+    predicciones = modelo.predict(df_final)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 903, in predict
+    proba = self.predict_proba(X)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        ensure_all_finite=ensure_all_finite,
+    )
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- ocupacion_Contadores y auditores financieros
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- causa_ABORTO ESPONTANEO INCOMPLETO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO MEDICO
+- causa_ABORTO MEDICO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 22:37:56 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 22:37:56 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:37:57 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:37:57 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 22:37:57 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 22:37:57 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 194 registros.
+2025-10-13 22:37:58 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98        41
+           1       1.00      0.89      0.94        18
+
+    accuracy                           0.97        59
+   macro avg       0.98      0.94      0.96        59
+weighted avg       0.97      0.97      0.97        59
+
+2025-10-13 22:37:58 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 22:37:59 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 22:37:59 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:37:59 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:37:59 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 22:38:00 | INFO | models.modelo | 🚀 cargada Modelo.
+2025-10-13 22:38:00 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:38:00 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:38:00 | INFO | models.modelo | ✅  Carga de dataset a Modelo.
+2025-10-13 22:38:00 | INFO | models.modelo | ✅  Asiganar variables a Modelo.
+2025-10-13 22:38:00 | CRITICAL | models.modelo | Error en la predicción del modelo: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- ocupacion_Contadores y auditores financieros
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- causa_ABORTO ESPONTANEO INCOMPLETO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO MEDICO
+- causa_ABORTO MEDICO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 50, in modelo_prediccion
+    predicciones = modelo.predict(df_final)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 903, in predict
+    proba = self.predict_proba(X)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        ensure_all_finite=ensure_all_finite,
+    )
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- ocupacion_Contadores y auditores financieros
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- causa_ABORTO ESPONTANEO INCOMPLETO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO MEDICO
+- causa_ABORTO MEDICO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 22:40:29 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 22:40:29 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:40:29 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:40:30 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 22:40:30 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 22:40:30 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 22:40:32 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 22:40:32 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 22:40:34 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 22:40:34 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:40:34 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:40:35 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 22:40:35 | INFO | models.modelo | 🚀 cargada Modelo.
+2025-10-13 22:40:35 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:40:35 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:40:35 | INFO | models.modelo | ✅  Carga de dataset a Modelo.
+2025-10-13 22:40:35 | INFO | models.modelo | ✅  Asiganar variables a Modelo.
+2025-10-13 22:40:35 | CRITICAL | models.modelo | Error en la predicción del modelo: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- ocupacion_Supervisores de oficina
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 50, in modelo_prediccion
+    predicciones = modelo.predict(df_final)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 903, in predict
+    proba = self.predict_proba(X)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        ensure_all_finite=ensure_all_finite,
+    )
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- ocupacion_Supervisores de oficina
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 22:51:54 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 22:51:54 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:51:55 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:51:55 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 22:51:55 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 22:51:55 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 22:51:56 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 22:51:57 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 22:51:58 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 22:51:58 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:51:58 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:51:58 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 22:51:58 | INFO | models.modelo | 🚀 cargada Modelo.
+2025-10-13 22:51:58 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:51:59 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:51:59 | INFO | models.modelo | ✅  Carga de dataset a Modelo.
+2025-10-13 22:51:59 | INFO | models.modelo | ✅  Asiganar variables a Modelo.
+2025-10-13 22:51:59 | CRITICAL | models.modelo | Error en la predicción del modelo: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- ocupacion_Supervisores de oficina
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 50, in modelo_prediccion
+    predicciones = modelo.predict(df_final)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 903, in predict
+    proba = self.predict_proba(X)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\ensemble\_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        ensure_all_finite=ensure_all_finite,
+    )
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\sklearn\utils\validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- ocupacion_Supervisores de oficina
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 22:53:25 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 22:53:25 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 22:53:25 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 22:53:25 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 22:53:25 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 22:53:25 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 22:53:27 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 22:53:27 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 22:53:29 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 22:53:29 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:53:29 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 22:53:29 | INFO | models.modelo | 🚀 Configuración cargada correctamente.
+2025-10-13 22:53:29 | CRITICAL | models.modelo | Error en la predicción del modelo: [Errno 2] No such file or directory: 'models/data/encoder.pkl'
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\modelo.py", line 22, in modelo_prediccion
+    encoder = joblib.load("models/data/encoder.pkl")
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\joblib\numpy_pickle.py", line 735, in load
+    with open(filename, "rb") as f:
+         ~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'models/data/encoder.pkl'
+2025-10-13 23:01:11 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:01:11 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:01:11 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:01:11 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:01:11 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:01:11 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:01:12 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:01:13 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 23:01:14 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 23:01:14 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:01:15 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:01:15 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:01:15 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:01:15 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:01:15 | INFO | main |   Error al cargar la configuración: name 'joblib' is not defined
+2025-10-13 23:04:11 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:04:11 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:04:11 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:04:11 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:04:11 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:04:11 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:04:13 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:04:13 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 23:04:14 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 23:04:14 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:04:14 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:04:14 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:04:14 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:04:14 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:04:14 | INFO | main |   Error al cargar la configuración: [Errno 2] No such file or directory: 'models/data/modelo_muerte_materna.pkl'
+2025-10-13 23:05:39 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:05:39 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:05:39 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:05:39 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:05:39 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:05:40 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:05:41 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:05:42 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 23:05:43 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 23:05:43 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:05:44 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:05:44 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:05:44 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:05:44 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:05:44 | INFO | main |   Error al cargar la configuración: [Errno 2] No such file or directory: 'models/data/output/outputmodelo_muerte_materna.pkl'
+2025-10-13 23:07:46 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:07:46 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:07:46 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:07:46 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:07:46 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:07:46 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:07:48 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:07:48 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 23:07:49 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 23:07:49 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:07:50 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:07:50 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:07:50 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:07:50 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:07:50 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- categoria_causa
+- causa
+- departamento
+- etnia
+- fecha_evento
+- ...
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:10:19 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:10:19 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:10:20 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:10:20 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:10:20 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:10:20 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:10:21 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:10:22 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/outputmodelo_muerte_materna.pkl
+2025-10-13 23:10:23 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-13 23:10:23 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:10:23 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:10:23 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:10:23 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:10:23 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:10:23 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:12:01 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:12:01 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:12:01 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:12:01 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:12:01 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:12:01 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:12:03 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:12:03 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:12:03 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:12:03 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:12:03 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:12:03 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:12:03 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:12:03 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:12:04 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:16:43 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:16:43 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:16:43 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:16:43 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:16:43 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:16:43 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:16:45 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:16:46 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:16:46 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:16:46 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:16:46 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:16:46 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:16:46 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:16:46 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:16:46 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:21:45 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:21:45 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:21:46 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:21:46 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:21:46 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:21:46 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:21:47 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:21:47 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:21:48 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:21:48 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:21:48 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:21:48 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:21:48 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:21:48 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:21:48 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:22:20 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:22:20 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:22:20 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:22:20 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:22:20 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:22:20 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:22:22 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:22:22 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:22:22 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:22:22 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:22:22 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:22:22 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:22:22 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:22:22 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:22:23 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:23:16 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:23:16 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:23:16 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:23:16 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:23:16 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:23:16 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:23:18 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:23:18 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:23:19 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:23:19 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:23:19 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:23:19 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:23:19 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:23:19 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:23:19 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:25:31 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:25:31 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:25:31 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:25:31 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:25:31 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:25:31 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:25:32 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:25:33 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:25:33 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:25:33 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:25:33 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:25:33 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:25:33 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:25:33 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:25:33 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:27:16 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:27:16 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:27:17 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:27:17 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:27:17 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:27:17 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:27:18 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:27:19 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:27:19 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:27:19 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:27:19 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:27:19 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:27:19 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:27:19 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:27:19 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:28:10 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:28:10 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:28:10 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:28:10 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:28:10 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:28:10 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:28:12 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:28:12 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:28:12 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:28:12 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:28:12 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:28:12 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:28:12 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:28:12 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:28:12 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:28:24 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:28:24 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:28:24 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:28:24 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:28:24 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:28:24 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:28:26 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:28:26 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:28:26 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:28:26 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:28:26 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:28:26 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:28:26 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:28:26 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:28:27 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:29:49 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:29:49 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:29:49 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:29:49 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:29:49 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:29:49 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:29:51 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:29:51 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:29:52 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:29:52 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:29:52 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:29:52 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:29:52 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:29:52 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:29:52 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:30:06 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:30:06 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:30:06 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:30:06 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:30:06 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:30:06 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:30:08 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:30:08 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:30:09 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: name 'modelo' is not defined
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, modelo.feature_importances_)
+                       ^^^^^^
+NameError: name 'modelo' is not defined
+2025-10-13 23:30:09 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:30:09 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:30:09 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:30:09 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:30:09 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:30:09 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:30:09 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:49:15 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:49:15 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:49:15 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:49:15 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:49:15 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:49:15 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:49:17 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:49:17 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:49:18 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, pipeline.named_steps['classifier'].feature_importances_)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\pyplot.py", line 2990, in bar
+    return gca().bar(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\__init__.py", line 1524, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\axes\_axes.py", line 2583, in bar
+    x, height, width, y, linewidth, hatch = np.broadcast_arrays(
+                                            ~~~~~~~~~~~~~~~~~~~^
+        # Make args iterable too.
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        np.atleast_1d(x), height, width, y, linewidth, hatch)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 544, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 419, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+2025-10-13 23:49:18 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:49:18 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:49:18 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:49:18 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:49:18 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:49:18 | INFO | main |   Error al cargar la configuración: [Errno 2] No such file or directory: 'models/data/output/outputmodelo_muerte_materna.pkl'
+2025-10-13 23:49:58 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:49:58 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:49:59 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:49:59 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:49:59 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:49:59 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:50:00 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:50:01 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:50:01 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, pipeline.named_steps['classifier'].feature_importances_)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\pyplot.py", line 2990, in bar
+    return gca().bar(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\__init__.py", line 1524, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\axes\_axes.py", line 2583, in bar
+    x, height, width, y, linewidth, hatch = np.broadcast_arrays(
+                                            ~~~~~~~~~~~~~~~~~~~^
+        # Make args iterable too.
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        np.atleast_1d(x), height, width, y, linewidth, hatch)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 544, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 419, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+2025-10-13 23:50:01 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:50:01 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:50:01 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:50:01 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:50:01 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:50:01 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:57:46 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:57:46 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:57:46 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:57:46 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:57:46 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:57:46 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:57:47 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:57:48 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:57:48 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, pipeline.named_steps['classifier'].feature_importances_)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\pyplot.py", line 2990, in bar
+    return gca().bar(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\__init__.py", line 1524, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\axes\_axes.py", line 2583, in bar
+    x, height, width, y, linewidth, hatch = np.broadcast_arrays(
+                                            ~~~~~~~~~~~~~~~~~~~^
+        # Make args iterable too.
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        np.atleast_1d(x), height, width, y, linewidth, hatch)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 544, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 419, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+2025-10-13 23:57:48 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:57:48 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:57:48 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:57:48 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:57:48 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:57:48 | INFO | main |   Error al cargar la configuración: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- causa
+- departamento
+- etnia
+- ocupacion
+Feature names seen at fit time, yet now missing:
+- causa_ABORTO ESPONTANEO
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR EMBOLIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, COMPLICADO POR HEMORRAGIA EXCESIVA O TARDIA
+- causa_ABORTO ESPONTANEO COMPLETO O NO ESPECIFICADO, CON OTRAS COMPLICACIONES ESPECIFICADAS Y LAS NO ESPECIFICADAS
+- causa_ABORTO ESPONTANEO INCOMPLETO, COMPLICADO CON INFECCION GENITAL Y PELVIANA
+- ...
+
+2025-10-13 23:58:35 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:58:35 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:58:36 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:58:36 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:58:36 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:58:36 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:58:37 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:58:37 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:58:38 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, pipeline.named_steps['classifier'].feature_importances_)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\pyplot.py", line 2990, in bar
+    return gca().bar(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\__init__.py", line 1524, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\axes\_axes.py", line 2583, in bar
+    x, height, width, y, linewidth, hatch = np.broadcast_arrays(
+                                            ~~~~~~~~~~~~~~~~~~~^
+        # Make args iterable too.
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        np.atleast_1d(x), height, width, y, linewidth, hatch)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 544, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 419, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+2025-10-13 23:58:38 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:58:38 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:58:38 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:58:38 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:58:38 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:58:38 | INFO | main |   Error al cargar la configuración: [Errno 2] No such file or directory: 'models/data/outputmodelo_muerte_materna.pkl'
+2025-10-13 23:59:20 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-13 23:59:20 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:59:20 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:59:20 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-13 23:59:20 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-13 23:59:20 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-13 23:59:22 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-13 23:59:22 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-13 23:59:22 | CRITICAL | models.training_random_forest | ❌ Error durante el entrenamiento del modelo: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\models\training_random_forest.py", line 109, in entrenar_modelo
+    plt.bar(X.columns, pipeline.named_steps['classifier'].feature_importances_)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\pyplot.py", line 2990, in bar
+    return gca().bar(
+           ~~~~~~~~~^
+        x,
+        ^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\__init__.py", line 1524, in inner
+    return func(
+        ax,
+        *map(cbook.sanitize_sequence, args),
+        **{k: cbook.sanitize_sequence(v) for k, v in kwargs.items()})
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\matplotlib\axes\_axes.py", line 2583, in bar
+    x, height, width, y, linewidth, hatch = np.broadcast_arrays(
+                                            ~~~~~~~~~~~~~~~~~~~^
+        # Make args iterable too.
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        np.atleast_1d(x), height, width, y, linewidth, hatch)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 544, in broadcast_arrays
+    shape = _broadcast_shape(*args)
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\numpy\lib\_stride_tricks_impl.py", line 419, in _broadcast_shape
+    b = np.broadcast(*args[:32])
+ValueError: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (6,) and arg 1 with shape (138,).
+2025-10-13 23:59:22 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:59:22 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-13 23:59:22 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-13 23:59:23 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-13 23:59:23 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-13 23:59:23 | INFO | main |   Error al cargar la configuración: [Errno 2] No such file or directory: 'models/data/outputmodelo_muerte_materna.pkl'
+2025-10-14 00:10:22 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 00:10:22 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:10:22 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:10:22 | INFO | main | 🔄 Iniciando entrenamiento del modelo...
+2025-10-14 00:10:22 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 00:10:22 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 00:10:24 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 00:10:24 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-14 00:10:25 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 00:10:25 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-14 00:10:25 | INFO | main |  ✅ Modelo entrenado y guardado exitosamente.
+2025-10-14 00:10:25 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:10:25 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:10:25 | INFO | main | 🔄 Iniciando predicciones con el modelo entrenado...
+2025-10-14 00:10:25 | INFO | main |   Error al cargar la configuración: [Errno 2] No such file or directory: 'models/data/outputmodelo_muerte_materna.pkl'
+2025-10-14 00:16:43 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 00:16:43 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:16:44 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:16:44 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 00:16:44 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 00:16:44 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 00:16:45 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 00:16:45 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-14 00:16:46 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 00:16:46 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-14 00:16:46 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:16:46 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:16:46 | INFO | main | ✅ Predicción realizada: [0]
+2025-10-14 00:17:18 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 00:17:18 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:17:18 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:17:18 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 00:17:18 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 00:17:18 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 00:17:19 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 00:17:20 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-14 00:17:20 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 00:17:20 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output\modelo_muerte_materna.pkl
+2025-10-14 00:17:20 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:17:20 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:17:21 | INFO | main | ✅ Predicción realizada: [0]
+2025-10-14 00:18:00 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 00:18:00 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:18:01 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:18:01 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 00:18:01 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 00:18:01 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 00:18:02 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 00:18:02 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 00:18:03 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 00:18:03 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 00:18:03 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:18:03 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:18:03 | INFO | main | ✅ Predicción realizada: [0]
+2025-10-14 00:24:04 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 00:24:04 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:24:04 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:24:04 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 00:24:04 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 00:24:04 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 00:24:06 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 00:24:06 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 00:24:06 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 00:24:07 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 00:24:07 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:24:07 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:24:07 | CRITICAL | main | ❌ Error en el proceso: [Errno 2] No such file or directory: 'models/data/output/encoder_categoria_causa.pkl'
+Traceback (most recent call last):
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\main.py", line 55, in main
+    encoder = joblib.load("models/data/output/encoder_categoria_causa.pkl")
+  File "C:\Users\JoseAntonioPalacioUr\Documents\wPythonProy\model_arbol\.venv\Lib\site-packages\joblib\numpy_pickle.py", line 735, in load
+    with open(filename, "rb") as f:
+         ~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'models/data/output/encoder_categoria_causa.pkl'
+2025-10-14 00:24:58 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 00:24:58 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:24:58 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:24:58 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 00:24:58 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 00:24:58 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 00:25:00 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 00:25:00 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 00:25:00 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 00:25:01 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 00:25:01 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 00:25:01 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 00:25:01 | INFO | main | ✅ Predicción realizada: [0]
+2025-10-14 08:24:46 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 08:24:46 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 08:24:47 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 08:24:47 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 08:24:47 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 08:24:47 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 08:24:49 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 08:24:50 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 08:24:51 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 08:24:52 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 08:24:52 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 08:24:52 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 08:24:52 | INFO | main | ✅ Predicción realizada: [0]
+2025-10-14 08:27:06 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 08:27:06 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 08:27:06 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 08:27:06 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 08:27:06 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 08:27:06 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 08:27:08 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 08:27:08 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 08:27:08 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 08:27:09 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 08:27:09 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 08:27:09 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 08:27:09 | INFO | main | ✅ Predicción realizada: [0]
+2025-10-14 08:27:44 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 08:27:44 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 08:27:45 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 08:27:45 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 08:27:45 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 08:27:45 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 08:27:46 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 08:27:47 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 08:27:47 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 08:27:48 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 08:27:48 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 08:27:48 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 08:27:49 | INFO | main | ✅ Datos Entrada para predicción: 1 registros.
+2025-10-14 08:27:49 | INFO | main | ✅ Predicción realizada: [0]
+2025-10-14 08:29:54 | INFO | main | 🚀 Configuración cargada correctamente.
+2025-10-14 08:29:54 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 08:29:54 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 08:29:54 | INFO | main | 📊 Datos de entrenamiento cargados: 3141 registros.
+2025-10-14 08:29:54 | INFO | models.training_random_forest | 🚀 Configuración cargada correctamente.
+2025-10-14 08:29:54 | INFO | models.training_random_forest | 📊 Datos cargados para entrenamiento: 2827 registros.
+2025-10-14 08:29:56 | INFO | models.training_random_forest | 📊 Reporte de clasificación:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99       136
+           1       0.97      1.00      0.98        61
+
+    accuracy                           0.99       197
+   macro avg       0.98      0.99      0.99       197
+weighted avg       0.99      0.99      0.99       197
+
+2025-10-14 08:29:56 | INFO | models.training_random_forest | ✅ Modelo guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 08:29:56 | INFO | models.training_random_forest | 📈 Gráfico guardado en: models\importancia_caracteristicas.png
+2025-10-14 08:29:56 | INFO | main | ✅ Modelo entrenado y guardado en: models/data/output/modelo_muerte_materna.pkl
+2025-10-14 08:29:56 | INFO | models.select_data_db | 🚀 Configuración cargada correctamente.
+2025-10-14 08:29:57 | INFO | models.select_data_db | ✅ script ejecutado correctamente.
+2025-10-14 08:29:57 | INFO | main | ✅ Datos Entrada para predicción: 1 registros.
+2025-10-14 08:29:57 | INFO | main | ✅ Predicción realizada: [0]
